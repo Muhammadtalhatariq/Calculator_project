@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300&family=Noto+Sans:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Crete Round', serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#0a0a0a, #3a4452);
+}
+.calculator{
+    border: 2px solid #717377;
+    padding: 20px;
+    border-radius: 15px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.9);  
+}
+input{
+    width: 320px;
+    padding: 30px;
+    margin: 10px;
+    border: none;
+    font-size: 40px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(84 , 84, 84, 0.1);
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+} 
+input::placeholder{
+color: #ffffff;   
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    font-size: 23px ;
+    margin: 8px;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    box-shadow: -8px -8px 15px rgba(21, 114, 94, 0.473);
+    cursor:pointer;
+} 
+button:hover{
+    background-color: aqua;
+    color: #3a4452;
+}
+.equal-btn{
+background-color: red;
+}
+.operator{
+    color: green;
+}
